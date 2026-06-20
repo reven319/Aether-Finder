@@ -1,0 +1,16 @@
+{
+  "name": "software-search-engine",
+  "version": "1.0.0",
+  "description": "A search engine and crawler that searches file share sites and repositories for software download links",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "dependencies": {
+    "axios": "^1.6.8",
+    "cheerio": "^1.0.0-rc.12",
+    "cors": "^2.8.5",
+    "express": "^4.19.2"
+  }
+}
